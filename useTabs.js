@@ -8,6 +8,7 @@ export const useTabs = (initialTabs, allTabs) => {
 
     return {
         currentItem: allTabs[currentIndex],
+
         changeItem: setCurrentIndex
     }
 
